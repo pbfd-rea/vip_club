@@ -146,6 +146,13 @@ header .site-logo {
   display: none;
 }
 
+
+/** ABOUT **/
+
+#about p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 /** VIP LEVEL **/
 
 #level {
