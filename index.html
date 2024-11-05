@@ -9,6 +9,15 @@
     <!--swiper-->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
    <link rel="stylesheet" href="styles.css">
+
+  <!-- Preload the background image for the hero section -->
+   <link rel="preload" href="img/bg-main.webp" as="image">
+
+   <!-- Preload key images that are visible above the fold -->
+   <link rel="preload" href="img/main-banner.jpg" as="image">
+   <link rel="preload" href="img/welcome.webp" as="image">
+   <link rel="preload" href="img/panalobet-logo.webp" as="image">
+
 </head>
 
 <body>
@@ -38,7 +47,7 @@
 
         <section id="welcome">
             <img class="banner-small" src="img/welcome.webp" alt="welcome  to panalobet vip club">
-            <img class="banner-large" src="img/main-banner.jpg" alt="welcome to panalobet vip club">
+            <img class="banner-large" src="img/main-banner.webp" alt="welcome to panalobet vip club">
         </section>
         <div class="main-content">
             <section id="about">
