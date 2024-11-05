@@ -8,9 +8,11 @@
 }
 body {
   font-family: var(--font-family);
+  background-color: var(--primary-bg-color);  /* Fallback background color */
   background-image: url('img/bg-main.webp');
   background-repeat: no-repeat;
   background-size: cover;
+
   width: 100%;
   height:auto;
 }
@@ -372,7 +374,7 @@ footer {
     }
 
   .main-content {
-    background-image: url('img/background.jpg');
+    background-image: url('img/background.webp');
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
